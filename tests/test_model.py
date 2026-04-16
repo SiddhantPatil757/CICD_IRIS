@@ -1,5 +1,5 @@
-from ML_CICD_IRES.src.train import train
-from ML_CICD_IRES.src.predict import predict
+from src.train import train
+from src.predict import predict
 
 def test_model():
     train()
